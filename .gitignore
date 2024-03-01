@@ -1,0 +1,17 @@
+.vscode-test/** 
+.tmp
+*.log
+/errors
+/test*.*
+/.vscode/**/*
+!/.vscode/extensions.json
+!/.vscode/settings.example.json 
+vsc-extension-quickstart.md 
+**/.eslintrc.json 
+**/.vscode-test.*
+package-lock.json
+vsc-extension-quickstart.md
+node_modules
+/out
+*.vsix
+.vscode-test/

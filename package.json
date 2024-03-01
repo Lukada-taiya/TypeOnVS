@@ -1,7 +1,12 @@
 {
   "name": "typeon",
   "displayName": "TypeOn",
+  "publisher": "Tungtaiya",
   "description": "Uninterrupted typing even for out of reach keys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lukada-taiya/TypeOnVS.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
@@ -14,8 +19,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "typeon.helloWorld",
-        "title": "Hello World"
+        "command": "typeon.start",
+        "title": "Activate TypeOn"
+      },
+      {
+        "command": "typeon.stop",
+        "title": "Deactivate TypeOn"
       }
     ]
   },
