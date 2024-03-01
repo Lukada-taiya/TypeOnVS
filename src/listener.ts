@@ -22,7 +22,7 @@ const listener = () => {
         } 
     });
     
-    function checkKeySequence(sequence: string, target: string): boolean {        
+    const checkKeySequence = (sequence: string, target: string): boolean => {        
         const sortedSequence = sequence.split('').sort().join('');
         const sortedTarget = target.split('').sort().join('');
             
